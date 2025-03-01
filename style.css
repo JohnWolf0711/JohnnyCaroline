@@ -96,3 +96,15 @@ footer p {
         font-size: 1.3em;
     }
 }
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.video-container iframe {
+    max-width: 100%;
+    height: auto;
+}
